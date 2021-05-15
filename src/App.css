@@ -21,6 +21,7 @@
 nav {
   display: block;
   background-color: #24252a;
+  width: 100%;
 }
 a {
   margin: 30px;

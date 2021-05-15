@@ -1,0 +1,38 @@
+.modal {
+  transform: "translate(-50%, -50%)";
+  background-color: rgba(252, 252, 252, 0.558);
+  z-index: 1000;
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.695);
+  z-index: 999;
+}
+
+.x {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 20px;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.loginMessage {
+    left: 50%;
+    top: 50%;
+    margin-top: 50px;
+}

@@ -11,6 +11,7 @@ class Games extends Component {
       { id: 2, title: "Crock 2", image: "https://upload.wikimedia.org/wikipedia/en/6/65/Croc_2.jpg"},
       { id: 3, title: "Tekken", image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Tekken_1_game_cover.jpg/220px-Tekken_1_game_cover.jpg" },
     ],
+    hovered: false
   };
   
 
