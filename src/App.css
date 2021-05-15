@@ -1,0 +1,32 @@
+.Link_ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Link_li {
+  display: inline-block;
+
+  font-size: large;
+}
+.NavLink.active {
+  color: white;
+  margin: 50px;
+}
+
+nav {
+  display: block;
+  background-color: #24252a;
+}
+a {
+  margin: 30px;
+}
+
+.NavLink {
+    color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+}

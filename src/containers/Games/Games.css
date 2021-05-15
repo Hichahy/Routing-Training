@@ -1,0 +1,37 @@
+.Games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.Game {
+    border: 1px solid #eee;
+    box-shadow: 25px 35px 25px 10px rgb(16, 16, 16);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+   
+}
+
+.gameImg {
+    width: 30vh;
+}
+
+.GameLink {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+.GameLink.active{
+    color: black;
+}
+
+article {
+    background-color: rgb(165, 163, 163);
+}
+
+
